@@ -10,7 +10,7 @@
     <title>Tabla Oradores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/Mindex.css">
   </head>
   <body>
     <jsp:include page="menu.jsp"></jsp:include>
@@ -92,7 +92,10 @@
 		            <input type="text" class="form-control mb-3" id="emailAdd" name="emailAdd" placeholder="Email">
 		            <input type="text" class="form-control mb-3" id="dniAdd" name="dniAdd" placeholder="DNI">
 		            <input type="text" class="form-control mb-3" id="telAdd" name="telAdd" placeholder="Telefono">
+		            <input type="text" class="form-control mb-3" id="profesionAdd" name="profesionAdd" placeholder="Topico Orador">
 		            <textarea rows="4" class="form-control mb-3" id="temasAdd" name="temasAdd" placeholder="Temas del que hablará"></textarea>
+		             <textarea rows="4" class="form-control mb-3" id="fotoPerfil" name="fotoPerfil" placeholder="Link Foto"></textarea>
+		            
 		          </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>

@@ -8,12 +8,14 @@
 	String dni=request.getParameter("dniAdd");
 	String tema=request.getParameter("temasAdd");
 	String tel=request.getParameter("telAdd");
+	String pro=request.getParameter("profesionAdd");
+	String foto=request.getParameter("fotoPerfil");
 	
 	ConexionDB con=new ConexionDB();
 	Statement st=con.conectar();
 	
 	try {
-		Integer insertOk=st.executeUpdate("INSERT INTO oradores (nombre, apellido, email, dni, tema, telefono , profesion, fotoPerfil) VALUES ('"+nom+"','"+ape+"','"+email+"',"+dni+",'"+tema+"','"+tel+"', '', '') ");
+		Integer insertOk=st.executeUpdate("INSERT INTO oradores (nombre, apellido, email, dni, tema, telefono , profesion, fotoPerfil) VALUES ('"+nom+"','"+ape+"','"+email+"',"+dni+",'"+tema+"','"+tel+"', '"+pro+"', '"+foto+"') ");
 		
 		if(insertOk==1) {
 			response.sendRedirect("../view/listaOradores.jsp?mensaje=Orador%20creado%20exitosamente");			
