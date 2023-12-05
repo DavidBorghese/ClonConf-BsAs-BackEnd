@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.logo-nav{
+  width: 100px;
+}
+
+
+.img_carrusel{
+  filter: brightness(50%);
+}
+
+.carrusel_texto{
+  margin-bottom:250px;
+}
+
+.boton_ticket:hover{
+  filter: brightness(115%);
+}
+
+.mini_titulo{
+  font-size: small;
+  margin-top: 10px;
+}
+
+section div h2{
+  margin-top: -10px;
+}
+
+.oradores{
+  width: auto;
+  height: auto;
+}
+
+.oradores .card{
+  width: 18rem;
+  margin: 15px;
+}
+
+.img_cards{
+  width: 100%;
+  height: auto;
+}
+
+.oradores .card p{
+  font-weight: normal;
+  font-size: small;
+  line-height: 1.8;
+}
+
+.texto_formulario span{
+  border-bottom: 2px dotted black;
+}
+
+#ticketPage{
+  margin-bottom: 20px;
+}
+
+#btnBorrar{
+  background-color: #97c93e;
+}
+
+#btnCalcular{
+  background-color: #97c93e;
+}
+
+footer{
+  background-color: #1d3947;
+
+}
+
+.footer_link{
+  color:#aeb6bf;
+}
+.footer_link:hover{
+  color: white;
+}
+
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .footer_link{
+    font-size: 1rem;
+  }
+}
